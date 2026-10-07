@@ -1,0 +1,23 @@
+[project]
+name = "manim-slides-starter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Florian Siepe", email = "flo.siepe@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+        "manim>=0.21.0",
+        "manim-slides[pyside6-full]>=5.7.0",
+]
+
+[project.scripts]
+"slides-l" = "manim_slides_starter.build:slides_l"
+"slides-m" = "manim_slides_starter.build:slides_m"
+"slides-h" = "manim_slides_starter.build:slides_h"
+"slides-k" = "manim_slides_starter.build:slides_k"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
