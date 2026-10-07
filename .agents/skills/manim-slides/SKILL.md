@@ -74,6 +74,7 @@ Check `manim-slides render --help` and `manim-slides convert --help` if options 
 
 ## References
 
+- Manim skill: .agents/skills/manim/SKILL.md
 - Manim Slides documentation: https://manim-slides.eertmans.be/
 - Manim Community documentation: https://docs.manim.community/
 - Manim Slides repository: https://github.com/jeertmans/manim-slides
