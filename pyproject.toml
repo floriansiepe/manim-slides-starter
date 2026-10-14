@@ -16,6 +16,7 @@ dependencies = [
 "slides-l" = "manim_slides_starter.build:slides_l"
 "slides-m" = "manim_slides_starter.build:slides_m"
 "slides-h" = "manim_slides_starter.build:slides_h"
+"slides-p" = "manim_slides_starter.build:slides_p"
 "slides-k" = "manim_slides_starter.build:slides_k"
 
 [build-system]
